@@ -1,0 +1,62 @@
+<?xml  version="1.0" encoding="UTF-8" standalone="no"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" xmlns:binding="http://scade.com/sdk/data/binding" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http://scade.com/sdk/view/graphics" xmlns:layout="http://scade.com/sdk/layout" xmlns:navigation="http://scade.com/lattice/navigation" xmlns:widgets="http://scade.com/sdk/view/widgets">
+  <widgets:Page name="writer">
+    <minArea width="414" height="736"/>
+    <location/>
+    <backgroundColor Red="248" Green="248" Blue="248"/>
+    <children xsi:type="widgets:ListView" name="listView1">
+      <children xsi:type="widgets:Button" text="Hold NFC tag for writing" name="writeButton" horizontalAlignment="CENTER">
+        <font fontFamily="ArialMT" size="25">
+          <color/>
+        </font>
+        <location x="30" y="50"/>
+        <size width="354" height="220"/>
+        <contentSize width="267" height="29"/>
+        <layoutData xsi:type="layout:GridData" row="4" horizontalAlignment="CENTER" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" grabHorizontalSpace="true" grabVerticalSpace="true" widthConstraint="MATCH_PARENT">
+          <minSize width="86" height="23"/>
+          <maxSize width="-1" height="-1"/>
+        </layoutData>
+        <backgroundColor Red="255" Green="255" Blue="255"/>
+      </children>
+      <layout xsi:type="layout:GridLayout" rows="5" verticalSpacing="5" marginTop="30" marginBottom="30" marginLeft="30" marginRight="30"/>
+      <maxArea width="-1" height="-1"/>
+      <location y="218"/>
+      <minArea/>
+      <size width="414" height="300"/>
+      <layoutData xsi:type="layout:AutoLayoutData">
+        <constraints sourceAnchor="HEIGHT" constant="300" source="/0/@children.0"/>
+        <constraints sourceAnchor="CENTER_X" targetAnchor="CENTER_X" source="/0/@children.0" target="/0"/>
+        <constraints sourceAnchor="CENTER_Y" targetAnchor="CENTER_Y" source="/0/@children.0" target="/0"/>
+      </layoutData>
+    </children>
+    <children xsi:type="widgets:Textbox" text="Type the URL" name="urlTextBox">
+      <font fontFamily="ArialMT" size="17">
+        <color Red="191" Green="191" Blue="191"/>
+      </font>
+      <layoutData xsi:type="layout:AutoLayoutData">
+        <constraints sourceAnchor="BOTTOM" targetAnchor="TOP" constant="-10" source="/0/@children.1" target="/0/@children.2"/>
+        <constraints sourceAnchor="CENTER_X" targetAnchor="CENTER_X" source="/0/@children.1" target="/0"/>
+      </layoutData>
+      <location x="30" y="84"/>
+      <size width="354" height="22"/>
+      <contentSize width="354" height="19"/>
+    </children>
+    <children xsi:type="widgets:Textbox" text="Type the description" name="descriptionTextBox">
+      <font fontFamily="ArialMT" size="17">
+        <color Red="191" Green="191" Blue="191"/>
+      </font>
+      <layoutData xsi:type="layout:AutoLayoutData">
+        <constraints sourceAnchor="BOTTOM" targetAnchor="TOP" constant="-80" source="/0/@children.2" target="/0/@children.0"/>
+        <constraints sourceAnchor="CENTER_X" targetAnchor="CENTER_X" source="/0/@children.2" target="/0"/>
+      </layoutData>
+      <location x="30" y="116"/>
+      <size width="354" height="22"/>
+      <contentSize width="354" height="19"/>
+    </children>
+    <layout xsi:type="layout:AutoLayout"/>
+    <maxArea width="414" height="736"/>
+    <size width="414" height="736"/>
+  </widgets:Page>
+  <binding:BindingModel/>
+  <navigation:Navigation page="/0"/>
+</xmi:XMI>

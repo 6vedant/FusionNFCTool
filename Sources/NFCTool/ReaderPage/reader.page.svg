@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:scade="http://www.scade.io/v0.1" widget-name="reader" eObject-URI="reader.page#/0" width="414" height="736">
+  <svg template-id="background" width="414" height="736" constraints="direct!http://scade.com/svg/draw#//Box/height|size.h;direct!http://scade.com/svg/draw#//Box/width|size.w">
+    <rect width="100%" height="100%" fill="#f8f8f8" />
+  </svg>
+  <g template-id="content">
+    <g eObject-URI="reader.page#/0/@children.0" widget-name="listView1" transform="matrix(1 0 0 1 0 218)">
+      <svg template-id="background" width="414" height="300" constraints="direct!http://scade.com/svg/draw#//Box/height|size.h;direct!http://scade.com/svg/draw#//Box/width|size.w" />
+      <g template-id="content">
+        <g eObject-URI="reader.page#/0/@children.0/@children.0" widget-name="readButton" transform="matrix(1 0 0 1 30 35)">
+          <svg template-id="background" width="354" height="80" constraints="direct!http://scade.com/svg/draw#//Box/height|size.h;direct!http://scade.com/svg/draw#//Box/width|size.w">
+            <rect stroke-width="7" stroke-dasharray="5" width="100%" height="100%" fill="#feffff" stroke="#424242" />
+          </svg>
+          <text text-anchor="middle" alignment-baseline="central" font-size="25" font-family="ArialMT" font-style="normal" text-decoration="none" template-id="node-text" x="177" y="40" fill="#0">Hold NFC tag for reading</text>
+        </g>
+      </g>
+    </g>
+    <g eObject-URI="reader.page#/0/@children.1" widget-name="urlLabel" transform="matrix(1 0 0 1 30 84)">
+      <svg template-id="background" width="354" height="22" constraints="direct!http://scade.com/svg/draw#//Box/height|size.h;direct!http://scade.com/svg/draw#//Box/width|size.w" />
+      <text alignment-baseline="central" font-size="17" font-family="ArialMT" font-style="normal" text-decoration="none" template-id="node-text" x="0" y="11" fill="#464646">URL: </text>
+    </g>
+    <g eObject-URI="reader.page#/0/@children.2" widget-name="descriptionLabel" transform="matrix(1 0 0 1 30 116)">
+      <svg template-id="background" width="354" height="22" constraints="direct!http://scade.com/svg/draw#//Box/height|size.h;direct!http://scade.com/svg/draw#//Box/width|size.w" />
+      <text alignment-baseline="central" font-size="17" font-family="ArialMT" font-style="normal" text-decoration="none" template-id="node-text" x="0" y="11" fill="#464646">Description: </text>
+    </g>
+  </g>
+</svg>
